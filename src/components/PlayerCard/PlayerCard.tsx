@@ -30,7 +30,7 @@ const PlayerCard: React.FC<PlayerCardProps> = (props: PlayerCardProps) => {
             src={`assets/images/${
               player.isGk ? "gk-jersey.png" : "player-jersey.png"
             }`}
-            alt=""
+            alt="uniform"
           />
           <div className={mc(classes.jerseyNumber)}>{player.jerseyNumber}</div>
         </div>
