@@ -1,8 +1,8 @@
 import React from "react";
-import { mc } from "@footium/utility/functions";
-import { ReactComponent as GlobeSvg } from "@footium/assets/svgs/globe.svg";
-import { ReactComponent as QuestionMarkSvg } from "@footium/assets/svgs/question-mark.svg";
-import { ReactComponent as ArrowHead } from "@footium/assets/svgs/arrow-head.svg";
+import { mc } from "src/utility/functions";
+import { ReactComponent as GlobeSvg } from "src/assets/svgs/globe.svg";
+import { ReactComponent as QuestionMarkSvg } from "src/assets/svgs/question-mark.svg";
+import { ReactComponent as ArrowHead } from "src/assets/svgs/arrow-head.svg";
 import classes from "./ProfileInfo.module.css";
 
 const ProfileInfo: React.FC = () => (

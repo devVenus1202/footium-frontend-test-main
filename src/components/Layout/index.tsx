@@ -1,7 +1,9 @@
 import React from "react";
 import Layout from "./Layout";
-
-const LayoutContainer: React.FC = ({ children }) => {
+type Props = {
+  children: React.ReactNode;
+};
+const LayoutContainer: React.FC<Props> = ({ children }: Props) => {
   return <Layout>{children}</Layout>;
 };
 

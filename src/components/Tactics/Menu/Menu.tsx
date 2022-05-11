@@ -1,6 +1,6 @@
 import React from "react";
-import { mc } from "@footium/utility/functions";
-import { ReactComponent as ArrowHead } from "@footium/assets/svgs/arrow-head.svg";
+import { mc } from "src/utility/functions";
+import { ReactComponent as ArrowHead } from "src/assets/svgs/arrow-head.svg";
 import classes from "./Menu.module.css";
 
 const Menu: React.FC = () => (

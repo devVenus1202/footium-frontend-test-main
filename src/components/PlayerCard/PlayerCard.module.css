@@ -1,0 +1,76 @@
+.container {
+  width: 120px;
+  height: 100px;
+  border-radius: 4;
+  cursor: move;
+  padding: 5px;
+  box-sizing: border-box;
+  max-height: 100px;
+}
+.container:hover {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.31);
+}
+
+.content {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.uniform {
+  width: 40%;
+  position: relative;
+  margin: auto;
+  z-index: 1;
+}
+.uniform img {
+  width: 100%;
+}
+.uniform .jerseyNumber {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.info {
+  background-color: rgb(32, 77, 66);
+  border-radius: 4px;
+  color: white;
+  margin-top: -10px;
+  position: relative;
+}
+.position {
+  /* background-color: rgb(40, 45, 50); */
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  position: absolute;
+  width: calc(100% - 10px);
+  top: 30px;
+}
+.position.onPitch {
+  background-color: rgb(40, 45, 50);
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  position: relative;
+  font-weight: bold;
+  top: 0px;
+  width: unset;
+}
+.position.onPitch::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgb(55, 126, 34);
+  border: solid 1px #000;
+  position: absolute;
+  left: 5px;
+}
+.name {
+  padding: 5px;
+}

@@ -1,10 +1,12 @@
 import React from "react";
-import { mc } from "@footium/utility/functions";
+import { mc } from "src/utility/functions";
 import Header from "./Header";
 import Nav from "./Nav";
 import classes from "./Layout.module.css";
-
-const Layout: React.FC = ({ children }) => (
+type Props = {
+  children: React.ReactNode;
+};
+const Layout: React.FC<Props> = ({ children }: Props) => (
   <div className={mc("vw-100 d-flex", classes.container)}>
     <div className={mc("position-absolute w-100 h-100", classes.background)}>
       <div className={classes.stripe1} />

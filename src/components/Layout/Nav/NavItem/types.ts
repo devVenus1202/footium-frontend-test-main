@@ -1,4 +1,4 @@
-import { SvgComponent } from "@footium/utility/types";
+import { SvgComponent } from "src/utility/types";
 
 export interface NavItemProps {
   Svg: SvgComponent;

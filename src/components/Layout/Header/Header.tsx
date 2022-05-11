@@ -3,7 +3,7 @@ import PageInfo from "./PageInfo";
 import ProfileInfo from "./ProfileInfo";
 
 import classes from "./Header.module.css";
-import { mc } from "@footium/utility/functions";
+import { mc } from "src/utility/functions";
 
 const Header: React.FC = () => (
   <div className="h-100 d-flex">

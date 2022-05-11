@@ -1,7 +1,7 @@
-import { mc } from "@footium/utility/functions";
+import { mc } from "src/utility/functions";
 import React from "react";
-import Menu from "./Menu";
 import classes from "./Tactics.module.css";
+import TacticsGrid from "../TacticsGrid";
 
 const Tactics: React.FC = () => (
   <div
@@ -10,10 +10,8 @@ const Tactics: React.FC = () => (
       classes.container
     )}
   >
-    <div className={classes.menu}>
-      <Menu />
-    </div>
     {/* YOUR COMPONENT HERE */}
+    <TacticsGrid />
   </div>
 );
 
